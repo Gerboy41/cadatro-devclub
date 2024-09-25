@@ -31,6 +31,7 @@ const data = await api.post('/usuarios',{
   name: inputName.current.value
 })
 
+console.log(data);
 }
   
 
